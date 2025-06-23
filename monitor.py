@@ -46,7 +46,7 @@ def main():
         send_whatsapp(msg)
         save_content(current)
     else:
-        print("No change.")
+        send_whatsapp("No change.")
 
 if __name__ == "__main__":
     main()
